@@ -32,7 +32,7 @@ a{
 
 }
 .navbar-toggler{
-    background-color: #ffaeff86 ;
+    background-color: #ffaeff ;
 }
 @media screen and (max-width: 992px){
     .navbar{
@@ -93,17 +93,20 @@ a{
     }
 }
 @media screen and (max-width: 992px){
+
     .navbar-brand h1{
         font-size: 25px;
     }
-
+    .main{
+        margin-top: 0;
+    }
     .main-left{
         background-color: #2e3258 ;
-        height: 40vh;
+        height: 20vh;
     }
     .main-left div{
-        top: 200px;
         left: 15px;
+        top: 15px;
     }
     .main-left .text1{
         font-size: 25px;
